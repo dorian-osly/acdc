@@ -1,26 +1,25 @@
 # Animal Crossing Dynamic Clock (ACDC)
 
-> [!IMPORTANT]
-> ### Credits & Upstream Project
+> ### Credits
 > **Full credit goes to [@oscie57](https://github.com/oscie57) and their original project: [Animal Crossing Dynamic Player (ACDP)](https://github.com/oscie57/acdp)!**  
 > This application is a modernized, GUI-driven and portable evolution of oscie57's work, utilizing their service (`cloud.oscie.net`). Huge thanks to them for creating the original concept and keeping the soundtrack available!  
 > *Animal Crossing* and all related audio and assets are © **Nintendo Co., Ltd.**
 
 ---
 
-A lightweight, portable background music player that syncs with your real-world local **time** and real-time **weather** conditions. Runs silently in your **system tray** (taskbar notification area) without cluttering your screen with console or terminal windows.
+I wanted a lightweight, portable background music player that synced with my real local time and real-time weather conditions, so I made this! It runs silently in the system tray without cluttering the screen.
 
 ---
 
 ## Available Games
 
-| Game | Platform | Size | Weather Variants | The Roost |
-| :--- | :--- | :---: | :---: | :---: |
-| **Animal Crossing: New Horizons** | Nintendo Switch | ~250 MB | Clear, Rain, Snow | ✅ |
-| **Animal Crossing: New Leaf** | Nintendo 3DS | ~120 MB | Clear, Rain, Snow | ✅ |
-| **Animal Crossing: City Folk** | Nintendo Wii | ~230 MB | Clear, Rain, Snow | ✅ |
-| **Animal Crossing (Original)** | Nintendo GameCube | ~130 MB | Clear, Snow | ❌ |
-| **Animal Crossing: Pocket Camp** | Mobile | ~40 MB | Periodic (Morning, Day, Evening, Night) | ❌ |
+| Game | Size | Weather Variants | The Roost |
+| :--- | :---: | :---: | :---: |
+| **Animal Crossing: New Horizons** | ~250 MB | Clear, Rain, Snow | ✅ |
+| **Animal Crossing: New Leaf** | ~120 MB | Clear, Rain, Snow | ✅ |
+| **Animal Crossing: City Folk** | ~230 MB | Clear, Rain, Snow | ✅ |
+| **Animal Crossing (Original)** | ~130 MB | Clear, Snow | ❌ |
+| **Animal Crossing: Pocket Camp** | ~40 MB | Periodic (Morning, Day, Evening, Night) | ❌ |
 
 ---
 
