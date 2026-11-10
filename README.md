@@ -95,7 +95,7 @@ Just right-click the little leaf icon in your taskbar whenever you want to inter
 
 - **Status**: See what's currently playing, the hour, and your local weather (e.g., `New Horizons - 18h (Clear sky)`).
 - **Pause / Resume**: Quickly pause playback whenever you want to!
-- **Select Game**: Switch between any supported *Animal Crossing* OST in a click.
+- **Select Game**: Quickly switch between any supported *Animal Crossing* OST.
 - **Download Music...**: Open the download manager to grab extra games without leaving the app.
 - **Settings...**: Slide the volume up or down, type in a custom city (or click *Auto-detect*), toggle *The Roost* café theme, or turn startup on/off.
 - **Refresh Weather**: Force an immediate weather update if a sudden storm just rolled in. (you never know...)
