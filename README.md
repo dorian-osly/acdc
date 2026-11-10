@@ -25,11 +25,9 @@ I wanted a lightweight, portable background music player that synced with my rea
 
 ## Features
 
-- **Discrete**: Sits quietly in your system tray with a cute green leaf icon!
-- **Accurate to your weather**: Automatically checks your local weather and shifts the soundtrack to match—sunny vibes on clear days, cozy rain layers when it pours, and peaceful bells when it snows. No API keys needed!
+- **Accurate to your weather**: Automatically checks your local weather and shifts the soundtrack to match what's outside your window!
 - **Hourly changes**: When a new hour rolls around, the music smoothly fades into the next hourly theme, just like playing the actual game!
 - **The Roost coffee breaks**: Feeling lucky? You can enable an occasional chance for Brewster's iconic café theme to play and brighten up your day!
-- **Starts with your PC**: Want cozy background tunes every time you log in? Just check the box in the settings and you're good to go.
 - **Portable**: No installer at all! Your settings (`config.json`) and downloaded songs stay right inside the app folder, so you can easily carry it around on a USB drive!
 
 ---
@@ -37,16 +35,16 @@ I wanted a lightweight, portable background music player that synced with my rea
 ## How to Run
 
 ### Windows
-- **Portable `.exe` (Recommended - No Python needed):**
+- **Portable `.exe`**
   1. Download `AnimalCrossingDynamicClock.exe` from the Releases page (or find it in `dist/`).
   2. Double-click it to launch!
   3. On first launch, the download window will prompt you to grab the soundtrack for your game. Choose a game, click **Start Download**, and enjoy!
-  *(To build the `.exe` yourself: run `python build.py`.)*
+
 - **Running with Python:**
-  Install dependencies with `pip install -r requirements.txt`, then double-click `launch.vbs` to run silently in the background (or run `python main.py`).
+  Install dependencies with `pip install -r requirements.txt`, then double-click `launch.vbs` to run the app silently in the background (or run `python main.py`).
 
 ### Linux (Arch, Debian, Ubuntu, Fedora)
-- **Desktop Install & 1-Click Launch:**
+- **Desktop Install:**
   1. Install system packages for your distribution:
      - **Arch Linux / Manjaro:**
        ```bash
@@ -78,7 +76,6 @@ I wanted a lightweight, portable background music player that synced with my rea
   python3 build.py
   ./dist/AnimalCrossingDynamicClock
   ```
-  *(Automated builds for Windows and Linux x86_64 are also pre-configured in `.github/workflows/build.yml`.)*
 
 ### macOS
 1. Install Python dependencies:
@@ -97,8 +94,8 @@ I wanted a lightweight, portable background music player that synced with my rea
 Just right-click the little leaf icon in your taskbar whenever you want to interact with the player:
 
 - **Status**: See what's currently playing, the hour, and your local weather (e.g., `New Horizons - 18h (Clear sky)`).
-- **Pause / Resume**: Quickly pause playback whenever you hop on a call or need quiet, and pick right back up when you're ready.
-- **Select Game**: Switch between any supported *Animal Crossing* soundtrack in a click.
+- **Pause / Resume**: Quickly pause playback whenever you want to!
+- **Select Game**: Switch between any supported *Animal Crossing* OST in a click.
 - **Download Music...**: Open the download manager to grab extra games without leaving the app.
 - **Settings...**: Slide the volume up or down, type in a custom city (or click *Auto-detect*), toggle *The Roost* café theme, or turn startup on/off.
 - **Refresh Weather**: Force an immediate weather update if a sudden storm just rolled in. (you never know...)
