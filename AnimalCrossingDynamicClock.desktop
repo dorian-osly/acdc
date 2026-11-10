@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Animal Crossing Dynamic Clock
+GenericName=Dynamic Music Player
+Comment=Cozy Animal Crossing soundtrack synced to your local time and weather
+Exec=bash -c "cd $(dirname %k) && ./launch.sh"
+Icon=acdc
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+Keywords=animal;crossing;music;clock;weather;ost;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

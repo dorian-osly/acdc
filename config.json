@@ -1,0 +1,10 @@
+{
+    "game": "acnh",
+    "city": "",
+    "volume": 75,
+    "paused": false,
+    "format": "mp3",
+    "roost": false,
+    "notifications": true,
+    "autostart": false
+}
